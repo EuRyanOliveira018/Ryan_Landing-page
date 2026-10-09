@@ -1,0 +1,240 @@
+body {
+    background-color: #080A0F;
+    color: white;
+}
+
+body.modo-claro {
+    background-color: white;
+    color: black;
+}
+
+header {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px 60px;
+}
+
+nav ul {
+display: flex;
+gap: 30px;
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+nav a {
+color: #FFFFFF;
+text-decoration: none;
+}
+
+h1, h2, h4, p, fieldset {
+    color: white;
+}
+
+body.modo-claro h1,
+body.modo-claro h2,
+body.modo-claro h4,
+body.modo-claro p,
+body.modo-claro fieldset {
+    color: black;
+}
+
+p {
+    text-align: left;
+    color: #FFFFFF;
+}
+
+h3 {
+color: #6C63FF;
+}
+
+.nome span {
+color: #302DE4;
+}
+
+.introducao span {
+color: gray;
+}
+
+.Foto_1 span, .Foto_2 span {
+position: absolute;
+left: 70%;
+}
+
+.logo_github, .logo_linkedin {
+width: 3.50%;
+margin-top: 10%;
+}
+
+.logo_habilidade {
+width: 80px;
+height: 80px;
+}
+
+.info-container {
+display: flex;
+gap: 20px;
+}
+
+.info-card {
+width: 250px;
+height: 121px;
+
+background-color: #11141c;
+border-radius: 8px;
+
+display: flex;
+align-items: center;
+
+padding: 15px;
+gap: 18px;
+
+width: 20%;
+margin-top: 17%;
+
+}
+
+.info-texto {
+display: flex;
+flex-direction: column;
+gap: 3px;
+}
+
+/* minhas habilidades */
+
+.habilidades-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.hab-texto {
+    width: 30%;
+}
+
+.hab-containers {
+    width: 65%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.hab-card {
+    background-color: #11141c;
+    border: 1px solid #252a35;
+    border-radius: 8px;
+    padding: 20px;
+    min-height: 120px;
+}
+
+.logo-habilidade {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.hab-card p {
+    margin: 10px 0 0;
+    color: #ffffff;
+}
+
+.contato-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    margin-top: 40px;
+}
+
+.contato-info {
+    width: 40%;
+}
+
+.contato-info p {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.contato-container form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contato-container input,
+.contato-container textarea {
+    background-color: #11141c;
+    border: 1px solid #252a35;
+    border-radius: 6px;
+    padding: 15px;
+    color: #ffffff;
+}
+
+.contato-container textarea {
+    height: 120px;
+    resize: none;
+}
+
+.contato-container button {
+    background-color: #11141c;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    padding: 15px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    background-color: #10131A;
+    border: 1px solid #252A35;
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+
+.titulo {
+margin: 0;
+color: #a5a5a5;
+font-size: 13px;
+font-family: Arial, sans-serif;
+}
+
+.valor {
+margin: 0;
+color: #ffffff;
+font-size: 14px;
+font-family: Arial, sans-serif;
+}
+
+.filtros {
+display: flex;
+gap: 10px;
+}
+
+button {
+background-color: #6C63FF;
+color: #FFFFFF;
+border: none;
+border-radius: 8px;
+padding: 12px 25px;
+font-size: 16px;
+cursor: pointer;
+}
+
+button:hover {
+    background-color: #302DE4;
+}
+
+.ver_projetos {
+text-align: center;
+}
+
+.foto_3 {
+    width: 25;
+    margin-left: 42%;
+}
